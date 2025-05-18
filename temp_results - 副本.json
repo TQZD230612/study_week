@@ -1,0 +1,139 @@
+{
+  "results": {
+    "total": {
+      "correct": 205.0,
+      "count": 238,
+      "accuracy": 0.0
+    },
+    "by_question_type": {
+      "choice": {
+        "correct": 190,
+        "count": 198,
+        "accuracy": 0.0
+      },
+      "fill_in": {
+        "correct": 15.0,
+        "count": 40,
+        "accuracy": 0.0
+      },
+      "judgement": {
+        "correct": 0,
+        "count": 0,
+        "accuracy": 0.0
+      }
+    },
+    "by_domain": {
+      "person": {
+        "correct": 0,
+        "count": 0,
+        "accuracy": 0.0
+      },
+      "place": {
+        "correct": 112.0,
+        "count": 139,
+        "accuracy": 0.0
+      },
+      "event": {
+        "correct": 0,
+        "count": 0,
+        "accuracy": 0.0
+      },
+      "time": {
+        "correct": 93,
+        "count": 99,
+        "accuracy": 0.0
+      },
+      "unknown": {
+        "correct": 0,
+        "count": 0,
+        "accuracy": 0.0
+      }
+    },
+    "by_type_and_domain": {
+      "choice": {
+        "person": {
+          "correct": 0,
+          "count": 0,
+          "accuracy": 0.0
+        },
+        "place": {
+          "correct": 97,
+          "count": 99,
+          "accuracy": 0.0
+        },
+        "event": {
+          "correct": 0,
+          "count": 0,
+          "accuracy": 0.0
+        },
+        "time": {
+          "correct": 93,
+          "count": 99,
+          "accuracy": 0.0
+        },
+        "unknown": {
+          "correct": 0,
+          "count": 0,
+          "accuracy": 0.0
+        }
+      },
+      "fill_in": {
+        "person": {
+          "correct": 0,
+          "count": 0,
+          "accuracy": 0.0
+        },
+        "place": {
+          "correct": 15.0,
+          "count": 40,
+          "accuracy": 0.0
+        },
+        "event": {
+          "correct": 0,
+          "count": 0,
+          "accuracy": 0.0
+        },
+        "time": {
+          "correct": 0,
+          "count": 0,
+          "accuracy": 0.0
+        },
+        "unknown": {
+          "correct": 0,
+          "count": 0,
+          "accuracy": 0.0
+        }
+      },
+      "judgement": {
+        "person": {
+          "correct": 0,
+          "count": 0,
+          "accuracy": 0.0
+        },
+        "place": {
+          "correct": 0,
+          "count": 0,
+          "accuracy": 0.0
+        },
+        "event": {
+          "correct": 0,
+          "count": 0,
+          "accuracy": 0.0
+        },
+        "time": {
+          "correct": 0,
+          "count": 0,
+          "accuracy": 0.0
+        },
+        "unknown": {
+          "correct": 0,
+          "count": 0,
+          "accuracy": 0.0
+        }
+      }
+    }
+  },
+  "current_file": "E:\\桌面\\111\\generated_questions1.xlsx",
+  "current_index": 40,
+  "timestamp": "2025-05-11 22:16:42"
+}
