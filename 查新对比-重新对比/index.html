@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+  <meta charset="UTF-8" />
+  <title>科技查新对比-重新对比</title>
+  <style>
+    body { font-family: "微软雅黑", Arial, sans-serif; background: #f7f9fa; margin: 0; }
+    .container { max-width: 1100px; margin: 40px auto; background: #fff; border-radius: 8px; box-shadow: 0 2px 8px #eee; padding: 32px; }
+    h2 { margin-top: 0; }
+    table { width: 100%; border-collapse: collapse; margin-bottom: 16px; }
+    th, td { border: 1px solid #e0e0e0; padding: 8px 12px; text-align: left; }
+    th { background: #f0f4f8; }
+    .btn { padding: 6px 16px; border: none; border-radius: 4px; cursor: pointer; }
+    .btn-recompare { background: #1890ff; color: #fff; margin-right: 6px; }
+    .btn-save { background: #52c41a; color: #fff; }
+    .table-actions { margin-bottom: 12px; }
+    .pagination { margin-top: 8px; text-align: right; }
+    .pagination button { margin: 0 2px; }
+  </style>
+</head>
+<body>
+  <div class="container">
+    <h2>科技查新辅助系统 - 查新对比</h2>
+    <div class="table-section">
+      <table>
+        <thead>
+          <tr>
+            <th>标题</th>
+            <th>作者</th>
+            <th>文献来源</th>
+            <th>摘要</th>
+            <th>G/MTT特征</th>
+            <th>查新对比结论</th>
+            <th>操作</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr>
+            <td>某科技文献A</td>
+            <td>张三</td>
+            <td>期刊A</td>
+            <td>关于A的研究摘要...</td>
+            <td>特征1, 特征2</td>
+            <td>无相似</td>
+            <td>
+              <button class="btn btn-recompare">重新对比</button>
+            </td>
+          </tr>
+          <tr>
+            <td>某科技文献B</td>
+            <td>李四</td>
+            <td>会议B</td>
+            <td>关于B的研究摘要...</td>
+            <td>特征3</td>
+            <td>有相似</td>
+            <td>
+              <button class="btn btn-recompare">重新对比</button>
+            </td>
+          </tr>
+        </tbody>
+      </table>
+      <div class="table-actions">
+        <button class="btn btn-save">保存/另存为</button>
+      </div>
+      <div class="pagination">
+        <button disabled>上一页</button>
+        <span>1 / 1</span>
+        <button disabled>下一页</button>
+      </div>
+    </div>
+  </div>
+</body>
+</html>
